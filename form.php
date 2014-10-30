@@ -76,7 +76,7 @@ function contribute_form( $args, $content, $tag ){
 			?>
 			<li>
 				<?php echo __('Explain.') ?>
-				<textarea id="contribute_description" size=<?php echo $args['description'] ?> placeholder="<?php echo __('Tell us about your idea') ?>"></textarea>
+				<textarea id="contribute_description" name="contribute_description" size=<?php echo $args['description'] ?> placeholder="<?php echo __('Tell us about your idea') ?>"></textarea>
 			</li>
 			<?php
 		}
