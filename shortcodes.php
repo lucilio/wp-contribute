@@ -15,7 +15,7 @@ function contribute_list( $args, $content, $tag ){
 	$args['category'] = is_string( $args['category'] ) ? preg_replace( array('/open_category,/','/open_category$/') , '', $args['category'] ) : FALSE;
 	$categories = is_string( $args['category'] ) ? explode( ',' , $args['category'] ) : FALSE;
 	$image = !empty( $args['image'] );
-	$name = 
+	$name = '';
 	if( count( $contribute_data ) > 0 ){
 		?>
 	<ul id="contribute_list<?php $id ? ( '_' . $id ) : ''; ?>">
