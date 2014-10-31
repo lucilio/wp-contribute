@@ -80,7 +80,7 @@ function contribute_form( $args, $content, $tag ){
 			<li>
 				<label>
 					<?php
-					if( empty( categories ) ){
+					if( empty( $categories ) ){
 						echo __('...or add your own');
 					}
 					else{
